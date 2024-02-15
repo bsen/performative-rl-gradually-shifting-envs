@@ -1,0 +1,13 @@
+class GeneralConfig:
+    def __init__(self):
+        self.max_trajectory_length: int
+        self.agent2_gamma: float
+        self.num_deployments: int
+        self.num_meta_trajectories: int
+        self.base_path: str
+        self.num_jobs: int
+        self.previous_occupancy_mix: float
+        self.exact_optimization: bool
+        self.grid_world: int
+        self.profile: bool
+        self.store_steps: int
